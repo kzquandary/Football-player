@@ -1,36 +1,42 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+## Instalasi
 
-## Getting Started
-
-First, run the development server:
+Clone repository:
 
 ```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
+git clone https://github.com/kzquandary/Football-player.git
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Move on to directory:
+```bash
+cd Football-player
+```
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+Install Dependencies:
+```bash
+npm install
+```
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+Run project:
+```bash
+npm run dev
+```
 
-## Learn More
+## Deploy on Google App Engine
+Clone repository on Cloud Shell:
 
-To learn more about Next.js, take a look at the following resources:
+```bash
+git clone https://github.com/kzquandary/Football-player.git
+```
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+Move on to directory:
+```bash
+cd Football-player
+```
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+Deploy project:
+```bash
+gcloud app deploy --project [YOUR_PROJECT_ID]
+```
 
-## Deploy on Vercel
+You can change service name for Google App Engine on app.yaml
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
