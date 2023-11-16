@@ -32,7 +32,14 @@ Move on to directory:
 ```bash
 cd Football-player
 ```
-
+Install Dependencies:
+```bash
+npm install
+```
+Build Project:
+```bash
+npm run build
+```
 Deploy project:
 ```bash
 gcloud app deploy --project [YOUR_PROJECT_ID]
